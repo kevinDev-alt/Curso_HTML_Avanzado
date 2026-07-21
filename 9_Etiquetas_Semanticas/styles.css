@@ -1,0 +1,13 @@
+body{
+    position: relative;
+    box-sizing: 100vh;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    padding: 25px;
+    font-size: 17px;
+    background-color: #444;
+    color: #eee;
+    width: 100%;
+}

@@ -1,0 +1,27 @@
+body{
+    background-color: #444;
+    color: #ddd;
+}
+details{
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    color: #aaa;/*Color de la letra*/
+    font-size: 0.7em;
+}
+details[open]{/*Propiedades cuando este abierto*/
+    border: 1px solid #ddd;
+    background-color: #3348;
+    font-weight: bold;/*Se pone en negritas*/
+    box-shadow: 0 0 55px #000;
+}
+summary{
+    background-color: transparent;
+    border-bottom: 1px solid #ddd;/*Borde*/
+    padding: 9px;
+    color: #eee;/*Color de la letra*/
+}
+ul{
+    font-weight: 100;/*Hace que cuando se abra
+                    solo el ul se haga bold*/
+}

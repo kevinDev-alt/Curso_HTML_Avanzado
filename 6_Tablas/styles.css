@@ -1,0 +1,20 @@
+td, th{
+    border: 1px solid #333
+    text-align: center;
+    padding: 6px;
+    font-family: sans-serif;
+    border: none;
+    border-bottom: 1px solid #0004;
+}
+td{color: #777;}
+table{
+    width: 100%;/*Todo el ancho de la pagina*/
+    border-spacing: 12px;
+    max-width: 500px;/*Max ancho de la tabla*/
+    box-shadow: 0 0 25px #0002;
+    margin:auto;/*Centra automaticamente*/
+}
+.costoTotal, .headerTotal{
+    border:none;/*Quita borde solo a ese elem*/
+    font-size: 2em;
+}

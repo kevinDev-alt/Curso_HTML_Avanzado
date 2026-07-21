@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    color: #eee;/*Color de la letra*/
+    background-color: #444;
+}
+h2{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 150px;/*Ancho de la letra*/
+    font-size: 22px;
+    padding: 10px;
+}
+form{
+    background-color: transparent;
+    padding: 20px 0; /*Largo Ancho*/
+    max-width: 500px;/*Define el maximo ancho al estirar la pag*/
+    margin: auto;/*Centra automaticamente el form*/
+    margin-top: 60px;
+    box-shadow: 0 0 55px #000;/*Sombra de los recuadros del form*/
+    border-radius: 7px;
+    font-size: 18px;
+}
+.div_input{
+    padding: 6px 20px;/*Entre el formulario y el div*/
+}
+input, textarea, select{ /*Propiedades a input y textarea*/
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border: none;
+    border: 2px solid #666;
+    background: transparent;
+    color: #eee;
+    border-radius: 10px;
+    box-shadow: 0 0 55px #000;
+    margin-top: 5px;/*Margen para separar el label*/
+}
+option{
+    background-color: #444;/*Cambia color por defecto*/
+}
+textarea{
+    min-width: 100%;
+    resize: vertical;/*text area solo sea hacia abajo*/
+    min-height: 100px;/*Minimo alto*/
+    font-family: sans-serif;
+}
+label{
+    font-size: 1em;
+    line-height: 2;
+}
+.checkbox{
+    width: auto;/*Pone el checkbox a lado del text*/
+    height: 10px;
+}
+fieldset{
+    border: 2px solid #fff7;/*Cambio color*/
+    border-radius: 5px;/*Redondeo*/
+    margin: 0px 15px;
+    margin-top: 20px;
+}
